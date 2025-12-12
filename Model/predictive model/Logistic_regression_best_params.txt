@@ -1,0 +1,2 @@
+Best parameters: {'lr__C': 10.0, 'lr__class_weight': 'balanced', 'lr__fit_intercept': False, 'lr__max_iter': 200, 'lr__penalty': 'l2'}
+Best cross-val AUC: 0.687

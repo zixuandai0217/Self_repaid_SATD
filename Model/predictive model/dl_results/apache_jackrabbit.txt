@@ -1,0 +1,1 @@
+Projapache/jackrabbit: AUC:0.4977, Acc:0.5685, Prec:0.7274, Rec:0.6427, F1:0.6825

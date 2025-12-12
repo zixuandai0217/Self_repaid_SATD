@@ -1,0 +1,1 @@
+Projapache/iotdb: AUC:0.5168, Acc:0.4908, Prec:0.4231, Rec:0.6036, F1:0.4975

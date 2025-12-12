@@ -1,0 +1,13 @@
+Projapache/helix: AUC:0.5312, Acc:0.5540, Prec:0.6082, Rec:0.6189, F1:0.6135
+Projapache/hop: AUC:0.5755, Acc:0.5945, Prec:0.7314, Rec:0.5981, F1:0.6581
+Projapache/hudi: AUC:0.5484, Acc:0.4939, Prec:0.3125, Rec:0.6429, F1:0.4206
+Projapache/iceberg: AUC:0.5822, Acc:0.5670, Prec:0.5294, Rec:0.6000, F1:0.5625
+Projapache/ignite: AUC:0.4895, Acc:0.4701, Prec:0.6271, Rec:0.5151, F1:0.5656
+Projapache/inlong: AUC:0.5028, Acc:0.4615, Prec:0.3774, Rec:0.5556, F1:0.4494
+Projapache/iotdb: AUC:0.5168, Acc:0.4908, Prec:0.4231, Rec:0.6036, F1:0.4975
+Projapache/jackrabbit: AUC:0.4977, Acc:0.5685, Prec:0.7274, Rec:0.6427, F1:0.6825
+Projapache/jclouds: AUC:0.5129, Acc:0.5283, Prec:0.5930, Rec:0.6230, F1:0.6076
+Projapache/jmeter: AUC:0.5433, Acc:0.5705, Prec:0.6232, Rec:0.6305, F1:0.6268
+Projapache/johnzon: AUC:0.5653, Acc:0.6579, Prec:0.6452, Rec:0.9091, F1:0.7547
+Projapache/jspwiki: AUC:0.5641, Acc:0.5706, Prec:0.7906, Rec:0.5945, F1:0.6787
+Average LOPO(former50): AUC:0.5358, Acc:0.5440, Prec:0.5824, Rec:0.6278, F1:0.5931

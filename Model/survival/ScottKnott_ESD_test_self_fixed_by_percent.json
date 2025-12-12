@@ -1,0 +1,52 @@
+[
+  {
+    "satd_type": "design debt",
+    "sk_group": 1,
+    "mean_days": 180.8184,
+    "median_days": 24,
+    "sample_count": 9493,
+    "pct_fixed_7d": 0.3424,
+    "pct_fixed_30d": 0.5258,
+    "pct_fixed_365d": 0.8619
+  },
+  {
+    "satd_type": "defect debt",
+    "sk_group": 1,
+    "mean_days": 163.4881,
+    "median_days": 18.5,
+    "sample_count": 3352,
+    "pct_fixed_7d": 0.3807,
+    "pct_fixed_30d": 0.5597,
+    "pct_fixed_365d": 0.8851
+  },
+  {
+    "satd_type": "documentation debt",
+    "sk_group": 2,
+    "mean_days": 162.9203,
+    "median_days": 17,
+    "sample_count": 828,
+    "pct_fixed_7d": 0.3539,
+    "pct_fixed_30d": 0.6135,
+    "pct_fixed_365d": 0.8792
+  },
+  {
+    "satd_type": "requirement debt",
+    "sk_group": 2,
+    "mean_days": 101.7419,
+    "median_days": 14,
+    "sample_count": 8454,
+    "pct_fixed_7d": 0.4009,
+    "pct_fixed_30d": 0.6024,
+    "pct_fixed_365d": 0.9332
+  },
+  {
+    "satd_type": "test debt",
+    "sk_group": 2,
+    "mean_days": 140.7229,
+    "median_days": 14,
+    "sample_count": 1072,
+    "pct_fixed_7d": 0.4142,
+    "pct_fixed_30d": 0.6035,
+    "pct_fixed_365d": 0.9011
+  }
+]

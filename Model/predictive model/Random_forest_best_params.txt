@@ -1,0 +1,2 @@
+Best parameters: {'rf__bootstrap': False, 'rf__max_depth': 30, 'rf__max_features': 'sqrt', 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 5, 'rf__n_estimators': 500}
+Best cross-val AUC: 0.863

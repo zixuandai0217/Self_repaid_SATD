@@ -1,0 +1,20 @@
+[
+  {
+    "Group":"Self-repaid",
+    "Count":23199,
+    "Mean":147.00633648,
+    "Median":18.0,
+    "StdDev":374.9183515487,
+    "Min":0.0,
+    "Max":6538.0
+  },
+  {
+    "Group":"Non-self-repaid",
+    "Count":17302,
+    "Mean":603.0841521211,
+    "Median":206.0,
+    "StdDev":902.0132718072,
+    "Min":1.0,
+    "Max":7210.0
+  }
+]

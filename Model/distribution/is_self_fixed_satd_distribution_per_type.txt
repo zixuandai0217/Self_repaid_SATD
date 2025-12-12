@@ -1,0 +1,8 @@
+                    Non Self-fixed  Self-fixed  total
+satd_type                                            
+defect debt                   2696        3279   5975
+design debt                   7590        9478  17068
+documentation debt             663         807   1470
+other type                      98         126    224
+requirement debt              5345        8440  13785
+test debt                      910        1069   1979

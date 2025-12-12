@@ -1,0 +1,1 @@
+Projapache/avro: AUC:0.3750, Acc:0.3846, Prec:0.5000, Rec:0.6250, F1:0.5556

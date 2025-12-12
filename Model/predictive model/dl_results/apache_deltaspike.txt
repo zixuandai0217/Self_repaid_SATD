@@ -1,0 +1,1 @@
+Projapache/deltaspike: AUC:0.4515, Acc:0.5170, Prec:0.5046, Rec:0.7639, F1:0.6077

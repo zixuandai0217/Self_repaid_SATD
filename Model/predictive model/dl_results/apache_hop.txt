@@ -1,0 +1,1 @@
+Projapache/hop: AUC:0.5755, Acc:0.5945, Prec:0.7314, Rec:0.5981, F1:0.6581

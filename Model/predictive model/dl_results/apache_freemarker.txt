@@ -1,0 +1,1 @@
+Projapache/freemarker: AUC:0.0175, Acc:0.5690, Prec:0.9706, Rec:0.5789, F1:0.7253

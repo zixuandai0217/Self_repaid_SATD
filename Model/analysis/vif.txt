@@ -1,0 +1,298 @@
+Initial VIF Values:
+                            Feature        VIF
+28                  satd_path_depth  17.857471
+18            project_total_commits   9.167686
+21        project_active_developers   9.108348
+7      developer_removed_satd_count   7.568364
+17              project_active_days   7.028341
+26             project_readme_score   6.918297
+8           developer_total_commits   6.081958
+20         project_total_developers   5.985678
+3             satd_position_in_file   5.831721
+5             developer_active_days   5.277968
+19           project_active_commits   5.127203
+6        developer_added_satd_count   5.036862
+12              developer_ownership   4.770632
+34             satd_quality_score_3   4.571231
+9          developer_active_commits   4.565221
+24             project_file_authors   3.771903
+2             code_imported_modules   3.679236
+29            satd_type_design debt   3.665017
+31       satd_type_requirement debt   3.283162
+22                    project_files   3.067083
+35   satd_add_is_weekend_or_night_1   2.975511
+33             satd_quality_score_2   2.971497
+13      developer_past_bugfix_ratio   2.858263
+23           project_file_frequency   2.427934
+15     developer_past_feature_ratio   2.264290
+1                   code_file_lines   2.256793
+27                      satd_length   1.773237
+16    developer_past_refactor_ratio   1.620353
+14     developer_past_cleanup_ratio   1.519319
+11  developer_last_remove_satd_days   1.312480
+32              satd_type_test debt   1.309924
+30     satd_type_documentation debt   1.217882
+10       developer_last_commit_days   1.176599
+4    code_method_declaration_params   1.170830
+25         project_last_commit_days   1.125914
+0        code_cyclomatic_complexity   1.123343
+
+round 1: Removed feature 'satd_path_depth'
+
+------------------------------------------------------------
+                            Feature       VIF
+21        project_active_developers  9.085840
+18            project_total_commits  9.061225
+7      developer_removed_satd_count  7.567787
+17              project_active_days  6.783880
+26             project_readme_score  6.392808
+8           developer_total_commits  6.059829
+20         project_total_developers  5.980829
+3             satd_position_in_file  5.638300
+5             developer_active_days  5.202341
+6        developer_added_satd_count  4.992058
+19           project_active_commits  4.868834
+9          developer_active_commits  4.556900
+12              developer_ownership  4.551378
+33             satd_quality_score_3  4.264713
+24             project_file_authors  3.769239
+2             code_imported_modules  3.604827
+28            satd_type_design debt  3.513696
+30       satd_type_requirement debt  3.154892
+22                    project_files  3.040440
+34   satd_add_is_weekend_or_night_1  2.937196
+13      developer_past_bugfix_ratio  2.816114
+32             satd_quality_score_2  2.755916
+23           project_file_frequency  2.414363
+1                   code_file_lines  2.256775
+15     developer_past_feature_ratio  2.229771
+27                      satd_length  1.753983
+16    developer_past_refactor_ratio  1.606618
+14     developer_past_cleanup_ratio  1.514143
+11  developer_last_remove_satd_days  1.307365
+31              satd_type_test debt  1.296489
+29     satd_type_documentation debt  1.188146
+10       developer_last_commit_days  1.176541
+4    code_method_declaration_params  1.167986
+25         project_last_commit_days  1.125364
+0        code_cyclomatic_complexity  1.122458
+
+round 2: Removed feature 'project_active_developers'
+
+------------------------------------------------------------
+                            Feature       VIF
+18            project_total_commits  9.046079
+7      developer_removed_satd_count  7.567614
+17              project_active_days  6.716978
+8           developer_total_commits  6.059465
+25             project_readme_score  5.921863
+3             satd_position_in_file  5.637620
+5             developer_active_days  5.194881
+6        developer_added_satd_count  4.991303
+12              developer_ownership  4.540232
+32             satd_quality_score_3  4.264635
+9          developer_active_commits  4.251404
+19           project_active_commits  4.038570
+23             project_file_authors  3.723713
+2             code_imported_modules  3.584050
+27            satd_type_design debt  3.513052
+29       satd_type_requirement debt  3.154459
+21                    project_files  3.032981
+33   satd_add_is_weekend_or_night_1  2.935774
+13      developer_past_bugfix_ratio  2.804884
+31             satd_quality_score_2  2.745615
+20         project_total_developers  2.691555
+22           project_file_frequency  2.402079
+1                   code_file_lines  2.250238
+15     developer_past_feature_ratio  2.225468
+26                      satd_length  1.753517
+16    developer_past_refactor_ratio  1.606599
+14     developer_past_cleanup_ratio  1.514102
+11  developer_last_remove_satd_days  1.305153
+30              satd_type_test debt  1.296466
+28     satd_type_documentation debt  1.188125
+10       developer_last_commit_days  1.176288
+4    code_method_declaration_params  1.167896
+24         project_last_commit_days  1.125189
+0        code_cyclomatic_complexity  1.122038
+
+round 3: Removed feature 'project_total_commits'
+
+------------------------------------------------------------
+                            Feature       VIF
+7      developer_removed_satd_count  7.566807
+24             project_readme_score  5.913090
+8           developer_total_commits  5.724667
+3             satd_position_in_file  5.627802
+5             developer_active_days  5.192057
+6        developer_added_satd_count  4.988598
+17              project_active_days  4.769544
+12              developer_ownership  4.539909
+31             satd_quality_score_3  4.258058
+9          developer_active_commits  4.094198
+22             project_file_authors  3.722218
+2             code_imported_modules  3.578491
+26            satd_type_design debt  3.511937
+28       satd_type_requirement debt  3.143812
+18           project_active_commits  3.075394
+32   satd_add_is_weekend_or_night_1  2.934006
+13      developer_past_bugfix_ratio  2.804864
+20                    project_files  2.770403
+30             satd_quality_score_2  2.739956
+21           project_file_frequency  2.389452
+1                   code_file_lines  2.249845
+15     developer_past_feature_ratio  2.219324
+19         project_total_developers  2.145708
+25                      satd_length  1.752059
+16    developer_past_refactor_ratio  1.605551
+14     developer_past_cleanup_ratio  1.513990
+11  developer_last_remove_satd_days  1.300619
+29              satd_type_test debt  1.296404
+27     satd_type_documentation debt  1.187348
+10       developer_last_commit_days  1.176138
+4    code_method_declaration_params  1.167890
+23         project_last_commit_days  1.125163
+0        code_cyclomatic_complexity  1.122018
+
+round 4: Removed feature 'developer_removed_satd_count'
+
+------------------------------------------------------------
+                            Feature       VIF
+23             project_readme_score  5.911727
+3             satd_position_in_file  5.625485
+5             developer_active_days  5.189365
+16              project_active_days  4.641041
+7           developer_total_commits  4.608392
+11              developer_ownership  4.518681
+30             satd_quality_score_3  4.257132
+8          developer_active_commits  3.966121
+21             project_file_authors  3.721589
+2             code_imported_modules  3.578029
+25            satd_type_design debt  3.506082
+27       satd_type_requirement debt  3.142947
+6        developer_added_satd_count  3.119551
+17           project_active_commits  3.075294
+31   satd_add_is_weekend_or_night_1  2.921934
+12      developer_past_bugfix_ratio  2.803091
+19                    project_files  2.755822
+29             satd_quality_score_2  2.739658
+20           project_file_frequency  2.389448
+1                   code_file_lines  2.247175
+14     developer_past_feature_ratio  2.218045
+18         project_total_developers  2.138162
+24                      satd_length  1.750916
+15    developer_past_refactor_ratio  1.604608
+13     developer_past_cleanup_ratio  1.513477
+10  developer_last_remove_satd_days  1.298601
+28              satd_type_test debt  1.296403
+26     satd_type_documentation debt  1.187032
+9        developer_last_commit_days  1.175883
+4    code_method_declaration_params  1.167870
+22         project_last_commit_days  1.125077
+0        code_cyclomatic_complexity  1.121457
+
+round 5: Removed feature 'project_readme_score'
+
+------------------------------------------------------------
+                            Feature       VIF
+3             satd_position_in_file  5.485795
+5             developer_active_days  5.188743
+7           developer_total_commits  4.607901
+16              project_active_days  4.602165
+11              developer_ownership  4.466319
+29             satd_quality_score_3  4.176801
+8          developer_active_commits  3.953500
+21             project_file_authors  3.707615
+2             code_imported_modules  3.529180
+24            satd_type_design debt  3.470852
+26       satd_type_requirement debt  3.130972
+6        developer_added_satd_count  3.118915
+17           project_active_commits  3.073198
+30   satd_add_is_weekend_or_night_1  2.920696
+12      developer_past_bugfix_ratio  2.773936
+19                    project_files  2.722201
+28             satd_quality_score_2  2.713934
+20           project_file_frequency  2.384527
+1                   code_file_lines  2.242581
+14     developer_past_feature_ratio  2.171085
+18         project_total_developers  2.090203
+23                      satd_length  1.749045
+15    developer_past_refactor_ratio  1.590062
+13     developer_past_cleanup_ratio  1.511971
+10  developer_last_remove_satd_days  1.295034
+27              satd_type_test debt  1.291409
+25     satd_type_documentation debt  1.184325
+9        developer_last_commit_days  1.175855
+4    code_method_declaration_params  1.167866
+22         project_last_commit_days  1.124381
+0        code_cyclomatic_complexity  1.121303
+
+round 6: Removed feature 'satd_position_in_file'
+
+------------------------------------------------------------
+                            Feature       VIF
+4             developer_active_days  5.188380
+6           developer_total_commits  4.603003
+15              project_active_days  4.583806
+10              developer_ownership  4.210026
+28             satd_quality_score_3  4.096828
+7          developer_active_commits  3.948715
+20             project_file_authors  3.684415
+2             code_imported_modules  3.527110
+23            satd_type_design debt  3.441025
+5        developer_added_satd_count  3.118293
+25       satd_type_requirement debt  3.081653
+16           project_active_commits  3.049121
+29   satd_add_is_weekend_or_night_1  2.900150
+18                    project_files  2.721911
+11      developer_past_bugfix_ratio  2.674641
+27             satd_quality_score_2  2.632625
+19           project_file_frequency  2.381042
+1                   code_file_lines  2.238418
+13     developer_past_feature_ratio  2.124751
+17         project_total_developers  2.087606
+22                      satd_length  1.747758
+14    developer_past_refactor_ratio  1.565825
+12     developer_past_cleanup_ratio  1.499244
+9   developer_last_remove_satd_days  1.294432
+26              satd_type_test debt  1.285819
+24     satd_type_documentation debt  1.182529
+8        developer_last_commit_days  1.175480
+3    code_method_declaration_params  1.162612
+21         project_last_commit_days  1.124169
+0        code_cyclomatic_complexity  1.120754
+
+round 7: Removed feature 'developer_active_days'
+
+------------------------------------------------------------
+                            Feature       VIF
+9               developer_ownership  4.189527
+27             satd_quality_score_3  4.094517
+6          developer_active_commits  3.801456
+19             project_file_authors  3.677890
+14              project_active_days  3.589739
+2             code_imported_modules  3.527042
+5           developer_total_commits  3.445711
+22            satd_type_design debt  3.440843
+24       satd_type_requirement debt  3.081173
+4        developer_added_satd_count  3.067481
+15           project_active_commits  3.048140
+28   satd_add_is_weekend_or_night_1  2.892526
+17                    project_files  2.717744
+10      developer_past_bugfix_ratio  2.647009
+26             satd_quality_score_2  2.631382
+18           project_file_frequency  2.380872
+1                   code_file_lines  2.237764
+12     developer_past_feature_ratio  2.123984
+16         project_total_developers  2.084289
+21                      satd_length  1.747466
+13    developer_past_refactor_ratio  1.561076
+11     developer_past_cleanup_ratio  1.494369
+25              satd_type_test debt  1.285775
+8   developer_last_remove_satd_days  1.197251
+23     satd_type_documentation debt  1.181474
+7        developer_last_commit_days  1.174999
+3    code_method_declaration_params  1.162610
+20         project_last_commit_days  1.123587
+0        code_cyclomatic_complexity  1.120637
+

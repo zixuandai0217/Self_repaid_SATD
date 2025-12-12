@@ -1,0 +1,1 @@
+Projapache/cayenne: AUC:0.4735, Acc:0.4885, Prec:0.6408, Rec:0.5260, F1:0.5778

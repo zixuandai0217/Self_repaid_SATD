@@ -1,0 +1,7 @@
+path_depth
+active_developers
+p_total_commits
+repaid_satd_count
+readme_score
+position_in_file
+d_active_days

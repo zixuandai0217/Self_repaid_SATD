@@ -1,0 +1,1 @@
+Projapache/jspwiki: AUC:0.5641, Acc:0.5706, Prec:0.7906, Rec:0.5945, F1:0.6787

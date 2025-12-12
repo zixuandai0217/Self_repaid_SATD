@@ -1,0 +1,1 @@
+Projapache/camel: AUC:0.5026, Acc:0.5379, Prec:0.6753, Rec:0.5931, F1:0.6315

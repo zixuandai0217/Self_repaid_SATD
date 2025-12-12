@@ -1,0 +1,1 @@
+Projapache/hadoop: AUC:0.5895, Acc:0.5682, Prec:0.4979, Rec:0.6146, F1:0.5501

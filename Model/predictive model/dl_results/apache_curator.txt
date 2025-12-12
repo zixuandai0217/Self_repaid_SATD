@@ -1,0 +1,1 @@
+Projapache/curator: AUC:0.3750, Acc:0.7778, Prec:0.8750, Rec:0.8750, F1:0.8750

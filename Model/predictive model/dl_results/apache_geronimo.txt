@@ -1,0 +1,1 @@
+Projapache/geronimo: AUC:0.5038, Acc:0.5479, Prec:0.5955, Rec:0.6590, F1:0.6256

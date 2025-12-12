@@ -1,0 +1,10 @@
+Validation AUC = 0.875
+Validation Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.72      0.74      3460
+           1       0.80      0.83      0.82      4640
+
+    accuracy                           0.78      8100
+   macro avg       0.78      0.78      0.78      8100
+weighted avg       0.78      0.78      0.78      8100

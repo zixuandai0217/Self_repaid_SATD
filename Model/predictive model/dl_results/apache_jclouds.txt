@@ -1,0 +1,1 @@
+Projapache/jclouds: AUC:0.5129, Acc:0.5283, Prec:0.5930, Rec:0.6230, F1:0.6076

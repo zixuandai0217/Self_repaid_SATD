@@ -1,0 +1,1 @@
+Projapache/inlong: AUC:0.5028, Acc:0.4615, Prec:0.3774, Rec:0.5556, F1:0.4494

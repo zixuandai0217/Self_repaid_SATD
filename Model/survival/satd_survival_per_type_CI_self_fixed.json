@@ -1,0 +1,47 @@
+[
+  {
+    "satd_type": "defect debt",
+    "Count": 3352,
+    "Mean": 163.48806682577566,
+    "Median": 18.5,
+    "StdDev": 418.7698571204341,
+    "Min": 0.0,
+    "Max": 6538.0
+  },
+  {
+    "satd_type": "design debt",
+    "Count": 9493,
+    "Mean": 180.81839249973666,
+    "Median": 24.0,
+    "StdDev": 424.4223099555657,
+    "Min": 0.0,
+    "Max": 6382.0
+  },
+  {
+    "satd_type": "documentation debt",
+    "Count": 828,
+    "Mean": 162.92028985507247,
+    "Median": 17.0,
+    "StdDev": 434.3177289131581,
+    "Min": 1.0,
+    "Max": 3953.0
+  },
+  {
+    "satd_type": "requirement debt",
+    "Count": 8454,
+    "Mean": 101.74189732670925,
+    "Median": 14.0,
+    "StdDev": 274.69720805392035,
+    "Min": 0.0,
+    "Max": 3868.0
+  },
+  {
+    "satd_type": "test debt",
+    "Count": 1072,
+    "Mean": 140.72294776119404,
+    "Median": 14.0,
+    "StdDev": 361.70360047829075,
+    "Min": 1.0,
+    "Max": 3766.0
+  }
+]

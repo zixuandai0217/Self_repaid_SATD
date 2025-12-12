@@ -1,0 +1,1 @@
+Projapache/beam: AUC:0.4896, Acc:0.4922, Prec:0.4666, Rec:0.6079, F1:0.5279

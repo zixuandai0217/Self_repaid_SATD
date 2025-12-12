@@ -1,0 +1,1 @@
+Projapache/cassandra: AUC:0.5237, Acc:0.5277, Prec:0.5277, Rec:0.5666, F1:0.5464

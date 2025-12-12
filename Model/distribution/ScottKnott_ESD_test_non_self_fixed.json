@@ -1,0 +1,37 @@
+[
+  {
+    "satd_type": "defect debt",
+    "fix_rate": 0.4498,
+    "sk_group": 1,
+    "self_fixed_count": 3352,
+    "non_self_fixed_count": 2740
+  },
+  {
+    "satd_type": "design debt",
+    "fix_rate": 0.4448,
+    "sk_group": 1,
+    "self_fixed_count": 9493,
+    "non_self_fixed_count": 7606
+  },
+  {
+    "satd_type": "documentation debt",
+    "fix_rate": 0.4531,
+    "sk_group": 1,
+    "self_fixed_count": 828,
+    "non_self_fixed_count": 686
+  },
+  {
+    "satd_type": "requirement debt",
+    "fix_rate": 0.3879,
+    "sk_group": 1,
+    "self_fixed_count": 8454,
+    "non_self_fixed_count": 5358
+  },
+  {
+    "satd_type": "test debt",
+    "fix_rate": 0.4597,
+    "sk_group": 1,
+    "self_fixed_count": 1072,
+    "non_self_fixed_count": 912
+  }
+]

@@ -1,0 +1,1 @@
+Projapache/asterixdb: AUC:0.5175, Acc:0.5193, Prec:0.6558, Rec:0.5366, F1:0.5902

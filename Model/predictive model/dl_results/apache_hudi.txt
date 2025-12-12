@@ -1,0 +1,1 @@
+Projapache/hudi: AUC:0.5484, Acc:0.4939, Prec:0.3125, Rec:0.6429, F1:0.4206

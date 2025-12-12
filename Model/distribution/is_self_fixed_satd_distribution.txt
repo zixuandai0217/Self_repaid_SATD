@@ -1,0 +1,5 @@
+Chi-square goodness-of-fit test result:
+
+χ²: 858.611121
+p_value: 9.761e-189
+is_significant: True significant difference

@@ -1,0 +1,2 @@
+Best parameters: {'xgb__colsample_bytree': 0.4, 'xgb__learning_rate': 0.01, 'xgb__max_depth': 30, 'xgb__n_estimators': 500, 'xgb__scale_pos_weight': np.float64(1.4916301458438106), 'xgb__subsample': 1.0}
+Best cross-val AUC: 0.861

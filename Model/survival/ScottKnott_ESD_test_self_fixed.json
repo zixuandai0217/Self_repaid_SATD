@@ -1,0 +1,44 @@
+[
+  {
+    "satd_type": "defect debt",
+    "mean_days": 164.9439,
+    "median_days": 19,
+    "sample_count": 3279,
+    "sk_group": 1
+  },
+  {
+    "satd_type": "design debt",
+    "mean_days": 180.8681,
+    "median_days": 24,
+    "sample_count": 9478,
+    "sk_group": 1
+  },
+  {
+    "satd_type": "documentation debt",
+    "mean_days": 161.5056,
+    "median_days": 17,
+    "sample_count": 807,
+    "sk_group": 1
+  },
+  {
+    "satd_type": "other type",
+    "mean_days": 147.1429,
+    "median_days": 15,
+    "sample_count": 126,
+    "sk_group": 1
+  },
+  {
+    "satd_type": "requirement debt",
+    "mean_days": 101.372,
+    "median_days": 14,
+    "sample_count": 8440,
+    "sk_group": 1
+  },
+  {
+    "satd_type": "test debt",
+    "mean_days": 141.0907,
+    "median_days": 14,
+    "sample_count": 1069,
+    "sk_group": 2
+  }
+]

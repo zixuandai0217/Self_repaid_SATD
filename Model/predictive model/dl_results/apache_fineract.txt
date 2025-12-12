@@ -1,0 +1,1 @@
+Projapache/fineract: AUC:0.4632, Acc:0.4743, Prec:0.6139, Rec:0.5167, F1:0.5611

@@ -1,0 +1,11 @@
+1fold，Positive:2320，Negative:1731，AUC:0.8930，Accuracy:0.8033，Precision:0.7969，Recall:0.8810，F1:0.8368
+2fold，Positive:2320，Negative:1730，AUC:0.8905，Accuracy:0.7970，Precision:0.7818，Recall:0.8957，F1:0.8349
+3fold，Positive:2320，Negative:1730，AUC:0.8945，Accuracy:0.8022，Precision:0.7963，Recall:0.8797，F1:0.8360
+4fold，Positive:2320，Negative:1730，AUC:0.8971，Accuracy:0.8086，Precision:0.7995，Recall:0.8888，F1:0.8418
+5fold，Positive:2320，Negative:1730，AUC:0.8972，Accuracy:0.8064，Precision:0.7995，Recall:0.8836，F1:0.8395
+6fold，Positive:2320，Negative:1730，AUC:0.8824，Accuracy:0.7830，Precision:0.7724，Recall:0.8806，F1:0.8230
+7fold，Positive:2320，Negative:1730，AUC:0.8894，Accuracy:0.7941，Precision:0.7834，Recall:0.8853，F1:0.8312
+8fold，Positive:2320，Negative:1730，AUC:0.8993，Accuracy:0.7993，Precision:0.7904，Recall:0.8841，F1:0.8346
+9fold，Positive:2320，Negative:1730，AUC:0.8911，Accuracy:0.7973，Precision:0.7875，Recall:0.8849，F1:0.8334
+10fold，Positive:2319，Negative:1731，AUC:0.8907，Accuracy:0.7988，Precision:0.7890，Recall:0.8853，F1:0.8344
+Average，AUC:0.8925，Accuracy:0.7990，Precision:0.7897，Recall:0.8849，F1:0.8346
