@@ -1,0 +1,42 @@
+# --------------------------
+# Ignore rules for Test subdirectory
+# --------------------------
+Test/*
+# --------------------------
+# --------------------------
+# Ignore rules for Feature Engineering subdirectory
+# --------------------------
+Feature Engineering/features/
+# --------------------------
+# Ignore rules for Dataset subdirectory
+# --------------------------
+
+# Ignore Dataset/data folder files
+Dataset/data/*
+
+# Ignore IDE configuration files in directory
+Dataset/.idea/
+
+
+# Ignore build directories and runtime files
+Dataset/target/
+
+# Source repository cache
+Dataset/repos/
+
+# C# file ignore (SQL directory) 
+Dataset/sql/*.cs
+
+# Ignore directories ending with "out" (e.g., build_out/)
+Dataset/*out*/
+
+# Ignore all "reports-+number" folders (e.g., reports-0/, reports-123/)
+Dataset/reports-[0-9]*/
+
+# --------------------------
+# Global common ignores (applies to entire project)
+# --------------------------
+.DS_Store
+*.log
+*.tmp
+*.idea
