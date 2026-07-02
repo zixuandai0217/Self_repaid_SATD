@@ -2,6 +2,10 @@
 
 This repository contains a complete research workflow for analyzing Self-Repaid SATD (Self-Admitted Technical Debt). The workflow consists of three main stages: **Data Collection**, **Feature Engineering**, and **Model Analysis**.
 
+### Latest Dataset
+
+The latest dataset is available on Google Drive: [Self-Repaid SATD latest dataset](https://drive.google.com/file/d/1_PqKOyhw9-htSniEy5uUsyMV_bLG5TzK/view?usp=drive_link).
+
 ### Prerequisites for Research Workflow
 
 **Required Software:**
