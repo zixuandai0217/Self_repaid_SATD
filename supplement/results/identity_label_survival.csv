@@ -1,0 +1,9 @@
+label_variant,group,count,median_survival_days,mean_survival_days
+original,self,23199,18.0,147.00633648002068
+original,non_self,17302,206.0,603.0841521211421
+email_only,self,22483,16.0,128.72748298714583
+email_only,non_self,18018,214.0,607.7690087690088
+strict_normalized,self,23202,18.0,146.9990949056116
+strict_normalized,non_self,17299,206.0,603.1729579744494
+expanded_normalized,self,23282,18.0,148.4391804827764
+expanded_normalized,non_self,17219,206.0,603.3452000696905

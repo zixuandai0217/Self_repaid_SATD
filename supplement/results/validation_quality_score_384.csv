@@ -1,0 +1,539 @@
+sample_id,satd_id,project_name,f_comment,llm_quality_score,annotator_A,annotator_B,annotator_C,gold_label,notes
+1,56817,apache/sis,TODO: change to custom runtime exception,3,,,,,
+2,100669,apache/creadur-rat,try IntelliJ workaround before giving up,1,,,,,
+3,190691,apache/iotdb,TODO: replace restartDaemon() with new methods in Env.,3,,,,,
+4,234870,apache/causeway,XXX Java records to the rescue please!,1,,,,,
+5,95530,apache/drill,TODO: DRILL-7314 - replace TupleSchema with TupleMetadata,3,,,,,
+6,59991,apache/pinot,fetch list of segments assigned to a give resource from ideal state,1,,,,,
+7,82754,apache/fluo,TODO review use of PrewriteIter here,2,,,,,
+8,90638,apache/druid,"We caught an Exception instead of returning a really, real, live, real boy, errr, iterator
+So we better try to close our stuff, 'cause the exception is what is making it out of here.",1,,,,,
+9,54979,apache/poi,TODO Support types beyond CELL_VALUE_IS and FORMULA,3,,,,,
+10,191926,apache/iotdb,"TODO: support more TabletInsertionEvent
+PipeProcessor can change the type of TabletInsertionEvent",3,,,,,
+11,175481,apache/ozone,TODO: this table will be removed with the disappearance of CreateUser API.,3,,,,,
+12,12576,apache/tika,"TODO Add support for structs and lang-alts, but those types are currently not used in Tika",3,,,,,
+13,311991,apache/lucene,"nocommit must we really delete the files...?  IFD
+will do so I think?",2,,,,,
+14,180803,apache/nifi,TODO - use DataTransferAuthorizable after looking up underlying component for consistentency,3,,,,,
+15,316333,apache/lucene,TODO:  remove this on fixing SOLR-4051 / SOLR-1916,3,,,,,
+16,55510,apache/poi,"TODO: data tables are stored at the workbook level in XSSF, but are bound to a single sheet.
+The current code structure has them hanging off XSSFSheet, but formulas reference them
+only by name (names are global, and case insensitive).
+This map stores names as lower case for case-insensitive lookups.
+
+FIXME: Caching tables by name here for fast formula lookup means the map is out of date if
+a table is renamed or added/removed to a sheet after the map is created.
+
+Perhaps tables can be managed similar to PivotTable references above?",3,,,,,
+17,250373,apache/hadoop,"when the given snapshotId is CURRENT_STATE_ID, it is possible that we
+do not know where the corresponding inode belongs, thus we simply
+return the last reference node",1,,,,,
+18,93688,apache/drill,"Tests for getMinorVersion() (defined by JDBC/java.sql.Driver):
+TODO:  Determine what minor version number should be.",3,,,,,
+19,123370,apache/ant,"TODO - use scope here, to make sure that the result
+is a descendent of the dest dir",3,,,,,
+20,117642,apache/asterixdb,TODO: Types should move somewhere else,3,,,,,
+21,237801,apache/causeway,"TODO add entity relations - that is, model the object graph",3,,,,,
+22,285779,apache/ignite,TODO: implement.,2,,,,,
+23,230759,apache/causeway,"FIXME: a bit of a hack to just use toString(), probably want to format somehow.",3,,,,,
+24,327817,apache/ignite,TODO: IGNITE-11481 - delete this method after ticket.,3,,,,,
+25,25332,apache/synapse,do not copy options from the original todo: Y?,2,,,,,
+26,250235,apache/hadoop,TODO (YARN-1528): ZKAuthInfo to be set for rm-store and elector,3,,,,,
+27,131986,apache/iceberg,TODO MetricsConfig will be used for building parquet RowData writer.,3,,,,,
+28,305383,apache/lucene,TODO: Should this be protected instead?,2,,,,,
+29,238813,apache/causeway,TODO: either safe or mutator,3,,,,,
+30,196312,apache/jackrabbit,todo throw InvalidItemStateException?,3,,,,,
+31,126679,apache/helix,XXX: think about getting rid of method argument,2,,,,,
+32,216403,apache/camel,setting headerFilterStrategy from endpoint to httpBinding maybe TODO upgrade,2,,,,,
+33,342741,apache/lucene,TODO: Why is this needed? see SOLR-9440,2,,,,,
+34,185262,apache/phoenix,TODO propagate to grandchild views as well,3,,,,,
+35,211549,apache/camel,"TODO: this exception should not be there
+ignore",3,,,,,
+36,303947,apache/geode,TODO: should the gfsecurity.properties file be backed up?,2,,,,,
+37,150003,apache/kafka,TODO will be fixed in KAFKA-10437,2,,,,,
+38,189073,apache/iotdb,todo implement auto create schema,3,,,,,
+39,40944,apache/royale-compiler,"TODO (erikdebruin) there is an 'extra' semi-colon at the end (in the
+'foo' block that doesn't seem to belong there...",3,,,,,
+40,113097,apache/asterixdb,TODO: will need to be modified for different record format,3,,,,,
+41,201970,apache/accumulo,TODO why do this logging and throw exception?,2,,,,,
+42,99280,apache/cxf,TODO do we need to use the EventLoop from NettyHttpConduitFactory,2,,,,,
+43,333079,apache/lucene,"TODO: This should be done on the workers, but it won't serialize because it relies on Presto classes.
+Once we make this a Expressionable the problem will be solved.",3,,,,,
+44,50270,apache/ratis,"TODO other information including host name, port etc.",3,,,,,
+45,160666,apache/maven,"TODO mkleint - use the (Container, Properties) constructor to make system properties embeddable
+shall the ProfileManager intefrace expose the properties?",3,,,,,
+46,314893,apache/lucene,"figure out the hash for the term
+TODO: hook in custom hashes (or store hashes)",3,,,,,
+47,311855,apache/lucene,"rather, each component in the chain should update
+what it \""owns\"".  EG fieldType.indexOptions() should
+be updated by maybe FreqProxTermsWriterPerField:",1,,,,,
+48,78515,apache/geronimo,TODO Should be confirm the jarName url style while the war is hosted in the ear,2,,,,,
+49,327401,apache/lucene,"TODO: this is collection wide and we want to take into
+account cluster wide - use new cluster sys prop",3,,,,,
+50,41633,apache/royale-compiler,TODO (mschmalle) remove when project field is removed,3,,,,,
+51,187081,apache/iotdb,"TODO max, min value could be optimized
+lastAggreData = readOnePageWithOverflow(updateIdx, timeValues, page, pageHeader, lastAggreData,",3,,,,,
+52,158734,apache/maven,TODO: remove - should be using a type handler - is being used by introspection in plugins.,3,,,,,
+53,81015,apache/pdfbox,"TODO find better way to do this. Either pass border array to
+setBorderLine(), or use AnnotationBorder class",3,,,,,
+54,114416,apache/asterixdb,TODO: Worry about these callbacks later.,2,,,,,
+55,235013,apache/causeway,"TODO effective public requires more context, eg. is the container an interface",3,,,,,
+56,67020,apache/pig,TODO Turn on algebraic,3,,,,,
+57,144282,apache/jspwiki,FIXME: SHOULD THIS DO A / => %2F MAPPING!?!,2,,,,,
+58,139883,apache/jclouds,TODO: template.crc32c without making a compile dep on guava 18.,3,,,,,
+59,65241,apache/pinot,"TODO: cleanup and consolidate the segment loading logic a bit for OFFLINE and REALTIME tables.
+https://github.com/apache/pinot/issues/9752",3,,,,,
+60,126598,apache/helix,TODO verify other states,2,,,,,
+61,175482,apache/ozone,TODO: omMetrics.incNumTenants(),3,,,,,
+62,33139,apache/sis,"Should not happen, unless maybe the source invoked this method before `dispose()`
+has done its work. Or maybe we have a bug in our code and this `Cleaner` is still
+alive but should not. In any cases there is no point to continue observing the source.",2,,,,,
+63,193682,apache/iotdb,TODO: Replace it by IDeviceID,3,,,,,
+64,145175,apache/jspwiki,FIXME: How should it deal with this?,2,,,,,
+65,131229,apache/hudi,"TODO: Remove sleep stmt once the modified times issue is fixed.
+Sleep thread for atleast 1sec for consecutive commits that way they do not have two commits modified times falls on the same millisecond.",3,,,,,
+66,125476,apache/activemq,TODO create variants for different stores,3,,,,,
+67,142066,apache/jmeter,TODO ? perhaps note connection so it can be disconnected at end of test?,2,,,,,
+68,87988,apache/dubbo,"This will only be called for singleton scope bean, and expected to be called by spring shutdown hook when BeanFactory/ApplicationContext destroys.
+We will guarantee dubbo related resources being released with dubbo shutdown hook.",1,,,,,
+69,241751,apache/flink,TODO: implement backtracking logic,3,,,,,
+70,178045,apache/parquet-java,TODO: right type,2,,,,,
+71,299053,apache/beam,TODO : remove,3,,,,,
+72,51223,apache/pig,"FIXME: Ensure that at most \""length\"" bytes are read.",3,,,,,
+73,267742,apache/beam,"TODO: have an inverted components to find the id for a thing already
+in the components",3,,,,,
+74,20047,apache/tomcat,"spec right now only has an annotation, not XML but we will add it
+TODO SERVLET3 - async",3,,,,,
+75,291831,apache/ignite,TODO IGNITE-45 create cache context here.,3,,,,,
+76,97064,apache/deltaspike,"TODO re-activate
+@Test",3,,,,,
+77,138207,apache/jclouds,FIXME fix case of VappTemplate -> VAppTemplate,3,,,,,
+78,170554,apache/openmeetings,FIXME TODO multiple streams from client,2,,,,,
+79,210688,apache/camel,TODO should fix this test,2,,,,,
+80,219315,apache/cassandra,"We don't have way to represent the full interval of keys (Interval don't support the minimum token as the right bound),
+so we keep the topLevel deletion info separatly. This also slightly optimize the case of full row deletion which is rather common.",1,,,,,
+81,55748,apache/poi,"This test is written as expected-to-fail and should be rewritten
+as expected-to-pass when the bug is fixed.",2,,,,,
+82,23122,apache/tomcat,TODO: Do more than just record this,2,,,,,
+83,64290,apache/pinot,TODO: Add ComplexTypeTransformer here. Currently it is not idempotent so cannot add it,3,,,,,
+84,71621,apache/geronimo,TODO Implement method,2,,,,,
+85,328925,apache/lucene,"TODO: we could save the outputs in local
+byte[][] instead of making new objs ever",3,,,,,
+86,60410,apache/pinot,TODO THIS DEPENDS STRICTLY ON THE ORDER OF THE KEYS RETURNED?,2,,,,,
+87,174195,apache/ozone,TODO: make this private.,3,,,,,
+88,29132,apache/storm,TODO: make sure test these two functions in manual tests,3,,,,,
+89,255189,apache/beam,TODO: Add dynamic registration of pipeline runners.,3,,,,,
+90,264539,apache/lucene,"better safe than sorry (applets, security managers, etc.) ...",1,,,,,
+91,52869,apache/poi,TODO - don't cache results of volatile formulas,3,,,,,
+92,96438,apache/dolphinscheduler,todo: directly throw exception,3,,,,,
+93,11160,apache/uima-uimaj,"should return 1/2 way to the size needed
+cap    sz      limit",1,,,,,
+94,196084,apache/jackrabbit,TODO: probably not correct,2,,,,,
+95,8381,apache/wicket,TODO. Later page manager should be refactored to be session specific,3,,,,,
+96,192792,apache/iotdb,"TODO if no order by, just set deviceViewOutputExpressions as selectExpressions",3,,,,,
+97,285376,apache/ignite,TODO ignite-96,2,,,,,
+98,308384,apache/lucene,TODO -- can translate these other query types,2,,,,,
+99,253615,apache/hadoop,DB.TODO: So can we can write only once to DB.,3,,,,,
+100,302827,apache/lucene,"currently we include the term itself in the map,
+and use includeOrig = false always.
+this is how the existing filter does it, but its actually a bug,
+especially if combined with ignoreCase = true",2,,,,,
+101,348445,apache/lucene,TODO: // && e.getMessage().contains(expectedErr) // why is this not always set?,2,,,,,
+102,140989,apache/jmeter,"TODO: a hack that
+needs to be fixed for
+2.0",3,,,,,
+103,137473,apache/jclouds,TODO: log this,3,,,,,
+104,130844,apache/hudi,TODO(HUDI-3035) unify w/ HoodieParquetWriter,3,,,,,
+105,12582,apache/tika,TODO: Remove subject in Tika 2.0,3,,,,,
+106,55404,apache/poi,TODO: currently this just returns nonsense,2,,,,,
+107,184937,apache/phoenix,"After pk position, sort on reverse OrderPreserving ordinal: NO, YES_IF_LAST, YES
+In this way, if we have an ORDER BY over a YES_IF_LAST followed by a YES, we'll
+allow subsequent columns to be ordered.",1,,,,,
+108,29916,apache/skywalking,TODO? use GRPC to send,2,,,,,
+109,141533,apache/jmeter,TODO - fix GUI layout problems,3,,,,,
+110,180078,apache/nifi,"TODO: Instead of \""root\"" we need the ID of the Process Group that the Controller Service is being created in.
+Right now, though, they are not scoped to a particular group.",3,,,,,
+111,152079,apache/karaf,"TODO: download overrides, implement fuller override clauses (original->replacement)",3,,,,,
+112,27825,apache/struts,"FIXME: our implementation is flawed - the only concept of ! should be
+in DefaultActionMapper
+handle \""name!method\"" convention.",3,,,,,
+113,37747,apache/seatunnel,"TODO use partitionID, taskId, epochId information.",3,,,,,
+114,99851,apache/cxf,"TODO: validate \""A key of size 2048 bits or larger MUST be used\"" for PS-SHA algorithms",3,,,,,
+115,30580,apache/sis,"Multiplication by prime number produces better hash code distribution.
+Value 31 is often used because some modern compilers can optimize x*31
+as  (x << 5) - x    (Josh Bloch, Effective Java).",1,,,,,
+116,71112,apache/geronimo,"TODO This is probably bad, managing two copies of the same data structure
+(maybe)",2,,,,,
+117,355118,apache/systemds,TODO consolidate external and internal json spec definitions,3,,,,,
+118,238552,apache/causeway,TODO[CAUSEWAY-3556] perhaps let _ClassCache handle this,3,,,,,
+119,363238,apache/systemds,"Pull the global parameters from ps
+TODO double check if model averaging is handled correctly (internally?)",2,,,,,
+120,207763,apache/hop,TODO: add internationalization,3,,,,,
+121,258863,apache/hadoop,TODO: uncomment this with HDDS-134 to avoid NPE,3,,,,,
+122,55660,apache/poi,"create new document preserving order of entries
+TODO Check \""copyOtherEntries\"" and tweak behaviour based on that
+TODO That's needed for in-place write",3,,,,,
+123,300783,apache/lucene,"TODO can we have a compound file per segment and codec for
+docvalues?",2,,,,,
+124,137809,apache/jclouds,TODO: get gson multimap adapter!,3,,,,,
+125,87,apache/zookeeper,"TODO: Read from current bookies, and write to this one",3,,,,,
+126,266557,apache/ignite,TODO: implement.,2,,,,,
+127,2375,apache/xalan-java,Duplicate variable declaration.,1,,,,,
+128,231612,apache/causeway,"TODO [2033] cleanup comments
+/**",3,,,,,
+129,37878,apache/seatunnel,TODO: how reconvert?,2,,,,,
+130,45362,apache/roller,TODO: DataMapperPort: Change calling code to pass WebLogEntryData instead of id,3,,,,,
+131,83761,apache/fineract,FIXME - MADHUKAR - Do not use the actual enum type here use integer representation,3,,,,,
+132,69466,apache/gobblin,"todo : This should be renamed to MysqlFlowSpecStore, because this implementation only stores FlowSpec, not a TopologySpec",3,,,,,
+133,219909,apache/cassandra,TODO validation,2,,,,,
+134,201980,apache/accumulo,TODO document scenario,3,,,,,
+135,245907,apache/hadoop,TODO: this really should be a -nl option,3,,,,,
+136,28943,apache/storm,TODO: clean this up,2,,,,,
+137,240705,apache/flink,"since one of the arguments of 'min(a,b)' is a positive int, this is actually
+guaranteed to be within the 'int' domain
+(we use a checked downCast to handle possible bugs more gracefully).",1,,,,,
+138,343629,apache/lucene,"TODO: not great that this is recursive... in theory a
+large automata could exceed java's stack so the maximum level of recursion is bounded to 1000",3,,,,,
+139,173922,apache/ozone,DB.TODO: So can we can write only once to DB.,3,,,,,
+140,130546,apache/hudi,TODO HUDI-1518 Cleaner now takes care of removing replaced file groups. This call to deleteReplacedFileGroups can be removed.,3,,,,,
+141,213121,apache/camel,"TODO: due to https://github.com/restlet/restlet-framework-java/issues/871
+we force sync behavior until that is fixed, then we can switch back to async support",3,,,,,
+142,121648,apache/aries,Add in a workaround to get OSGi 4.3 support with the current version of pax-exam,3,,,,,
+143,211167,apache/camel,TODO we can't use natural with JAXB 2.1.6 or 2.1 for some reason?,2,,,,,
+144,238940,apache/causeway,TODO: probably need to change this type?,2,,,,,
+145,99354,apache/cxf,TODO Encrypted tokens not yet working with StAX,2,,,,,
+146,280826,apache/geode,TODO: Do we need to reset the started flag here?,2,,,,,
+147,219869,apache/cassandra,preserve pre-6875 behavior (even though the query result is technically incorrect),1,,,,,
+148,126517,apache/helix,TODO change file property store,3,,,,,
+149,164725,apache/myfaces,TODO: IMPLEMENT IMPL,2,,,,,
+150,22494,apache/tomcat,TODO Log a warning,3,,,,,
+151,350396,apache/systemds,TODO while predicate,3,,,,,
+152,239185,apache/causeway,"updates the pending parameter value
+TODO [CAUSEWAY-3753] for some reason the ParameterModel.isValidationFeedbackActive() flag is not yet active,
+hence we call the immediate validation logic, that ignores the flag.
+In addition, the immediate validation call does not cache its result, so its always re-evaluated.
+(keeping a todo marker here, until we know this fix works as desired)",2,,,,,
+153,105566,apache/cayenne,TODO: move all *contains* methods to RelationshipProperty once Property class is removed,3,,,,,
+154,71627,apache/geronimo,TODO Implement method,2,,,,,
+155,123940,apache/ant,This is deprecated - use classespath in the future,3,,,,,
+156,129342,apache/helix,TODO: refactor builder to reduce duplicate code with other Helix Java APIs,3,,,,,
+157,67221,apache/pig,TODO FIX Need to uncomment this with the right logic,3,,,,,
+158,247063,apache/hadoop,Find better place?,1,,,,,
+159,263214,apache/ignite,TODO: Remove.,3,,,,,
+160,90024,apache/druid,"TODO: in the DB but committed here. Currently, we err on the former side because we don't want a ticking time
+TODO: bomb in the DB (a task marked running that we have forgotten about, which will potentially be re-
+TODO: started much later when a coordinator bootstraps).
+TODO:
+TODO: Eventually we should have this status update enter a retry queue instead of throwing an exception
+TODO: if it fails.",3,,,,,
+161,302680,apache/lucene,"TODO (Facet): implement also an estimated fixing by ratio (taking into
+account \""translation\"" of counts!)",3,,,,,
+162,21318,apache/tomcat,"Selector.open() isn't thread safe
+http://bugs.sun.com/view_bug.do?bug_id=6427854
+Affects 1.6.0_29, fixed in 1.7.0_01",2,,,,,
+163,32482,apache/sis,Temporary workaround for https://bugs.openjdk.java.net/browse/JDK-8201817,2,,,,,
+164,185279,apache/phoenix,old config left here for backward compatibility. TODO: remove in the next major release,3,,,,,
+165,16815,apache/sis,TODO NEWTEZ May need to be a string or a more usable construct if attempting to fetch from multiple inputs. Define a taskId / taskAttemptId pair,3,,,,,
+166,140720,apache/jmeter,"TODO URGENT - does it make sense to create \""different\"" NullProperty items for each key?
+Or would it be better to create them all with a key of \""\"" ?",2,,,,,
+167,119334,apache/asterixdb,TODO (GLENN): This assumes a flattened key list. Refactor / clarify this when removing depth indicators.,3,,,,,
+168,184612,apache/phoenix,FIXME : https://issues.apache.org/jira/browse/PHOENIX-1302,2,,,,,
+169,12407,apache/tika,"TODO: enable this, but some parsers currently
+trip it",2,,,,,
+170,105583,apache/cayenne,TODO: bound <E> to <E extends Comparable> once deprecated Property class is removed,3,,,,,
+171,3901,apache/wicket,TODO finalize javadoc,3,,,,,
+172,283427,apache/netbeans,TODO: Add support for file based Gradle Distribution,3,,,,,
+173,178126,apache/parquet-java,TODO: deal with encodings,3,,,,,
+174,183204,apache/openjpa,TODO: Add a localized exception,3,,,,,
+175,321429,apache/geode,TODO: provide better/more validation,3,,,,,
+176,84996,apache/fineract,"JW: sums up amounts by disbursal date in case of side-effect issues. Original assumed that there were
+no duplicate disbursal dates and 'put' each amount into the map keyed by date",1,,,,,
+177,171791,apache/opennlp,TODO: training code should be shared between two parsers,3,,,,,
+178,256032,apache/hadoop,TODO: add bcsId as a part of putSmallFile transaction,3,,,,,
+179,64755,apache/pinot,"TODO: No need to cache this. We cannot modify the metadata if it is from a input stream
+Caching properties around can be costly when the number of segments is high according to the
+finding in PR #2996. So for now, caching is used only when initializing from input streams.",3,,,,,
+180,237925,apache/causeway,"TODO on an entity ...
+@DomainObject(
+bounding = Bounding.BOUNDED)",3,,,,,
+181,99736,apache/cxf,TODO register streams using specific keys so that they can be individually unregistered,3,,,,,
+182,65095,apache/pinot,TODO: This test fails when using `llc` consumer mode. Needs investigation,2,,,,,
+183,96961,apache/deltaspike,X TODO: Javadoc,3,,,,,
+184,81101,apache/pdfbox,"TODO some reverse engineering needed to find out padding
+TODO fat cloudy rectangle in CTAN file has \""the\"" incomplete",2,,,,,
+185,301281,apache/beam,TODO(ajamato): Add validation that it is a valid pTransform name in the bundle descriptor.,3,,,,,
+186,159958,apache/maven,TODO: actually these need to be funnelled through the same process and the artifacts cloned somehow,3,,,,,
+187,22877,apache/tomcat,TODO: Possible optimization for scatter,2,,,,,
+188,326225,apache/lucene,TODO this is partially redundant with StrategyTestCase.runTestQuery & testOperation,2,,,,,
+189,199293,apache/jackrabbit,TODO: JCR-2200: Implement Query.getBindVariableNames(),3,,,,,
+190,189752,apache/iotdb,TODO replace it while delete timeseries is supported in cluster mode,3,,,,,
+191,149035,apache/kafka,"Swallow this so we can continue updating the rest of the tasks
+FIXME what's the proper response? Kill all the tasks? Consider this the same as a task
+that died after starting successfully.",2,,,,,
+192,22933,apache/tomcat,"TODO: Temp code until config refactoring is complete. Remove once
+refactoring is complete.",3,,,,,
+193,17019,apache/sis,"TODO Post MRR
+A single file per vertex will likely be a better solution. Does not
+require translation - client can take care of this. Will work independent
+of whether the configuration is for intermediate tasks or not. Has the
+overhead of localizing multiple files per job - i.e. the client would
+need to write these files to hdfs, add them as local resources per
+vertex. A solution like this may be more practical once it's possible to
+submit configuration parameters to the AM and effectively tasks via RPC.",2,,,,,
+194,208395,apache/hop,TODO: replace by checkbox selection value,3,,,,,
+195,216146,apache/camel,TODO: Move to ExtendedExchange,3,,,,,
+196,130689,apache/hudi,TODO remove reflection if Spark 2.x support is dropped,3,,,,,
+197,161287,apache/maven,TODO: Move these into their proper positions!,3,,,,,
+198,46445,apache/roller,Form bean workaround: empty string is never a valid id,1,,,,,
+199,187793,apache/iotdb,future feature,1,,,,,
+200,109400,apache/calcite,TODO: remove or use,2,,,,,
+201,191764,apache/iotdb,"TODO: memory control
+This queue is used to store pending events collected by the method collect(). The method
+supply() will poll events from this queue and send them to the next pipe plugin.",2,,,,,
+202,109709,apache/bval,"TODO: Delete, never reached in JSR-303 validations",3,,,,,
+203,233746,apache/causeway,"considering deleting this test, it's too long and too fragile.  integ tests ought to suffice.",2,,,,,
+204,298122,apache/lucene,TODO: remove after lucene migration,3,,,,,
+205,328305,apache/geode,"The tests in this class fail consistently on Windows. They fail intermittently on Linux.
+When the intermittent failure on Linux is fixed, perhaps this rule can be removed.",2,,,,,
+206,12627,apache/tika,"TODO: until PDFBox fixes metadata extraction for this file,
+skip this one file.",3,,,,,
+207,639,apache/xmlgraphics-commons,todo simplify this,3,,,,,
+208,142384,apache/jmeter,TODO is this sensible?,2,,,,,
+209,32185,apache/sis,TODO: scan for properties here.,3,,,,,
+210,53852,apache/poi,"TODO Handle the MapiProperties attribute in
+a different way, as we need to recurse into it",3,,,,,
+211,316808,apache/lucene,"TODO: make a single thread local w/ a
+Thingy class holding fieldsReader, termVectorsReader,
+simpleNormsProducer, simpleDVProducer",3,,,,,
+212,99446,apache/cxf,TODO Wait until we move off the WSS4J 2.0 beta release,3,,,,,
+213,168094,apache/olingo-odata4,"TODO verify that null ignores if it is a collection
+TODO verify that the second for parameters null ignores the parameters",3,,,,,
+214,18824,apache/tez,"TODO TEZ-2003 Move to vertex, taskIndex, version",3,,,,,
+215,300669,apache/beam,Return an iterable which knows how to come back for more.,1,,,,,
+216,10153,apache/uniffle,TODO: Use ShuffleBufferWithSkipList to avoid caching block here.,3,,,,,
+217,230120,apache/causeway,this is rather hacky,1,,,,,
+218,164484,apache/myfaces,"TODO: JSF 2.0, add impl",3,,,,,
+219,148814,apache/jspwiki,FIXME: Does not quite work,2,,,,,
+220,83611,apache/fineract,"TODO - Rename variable to commandId or taskId or something that shows
+this is the id of a command in a table/queue for processing.",3,,,,,
+221,137894,apache/jclouds,"TODO: is tenantName permanent? or should we switch to tenantId at some point. seems most tools
+still use tenantName",2,,,,,
+222,118762,apache/asterixdb,TODO(ali): extract IObjectFactory factories into a separate unit and share,3,,,,,
+223,142664,apache/jmeter,TODO Can't see anything in SPEC,2,,,,,
+224,98062,apache/cxf,"Adding namespace declaration as attributes is necessary because
+the xalan implementation that ships with SUN JDK 1.4 is bugged
+and does not handle the startPrefixMapping method",1,,,,,
+225,158638,apache/maven,"If we strike out we'll just use the expression which allows
+people to use hardcoded values if they wish.",1,,,,,
+226,127805,apache/helix,"TODO remove getBeanName()?
+Used by other external JMX consumers like ingraph",2,,,,,
+227,128693,apache/helix,"TODO: this is a workaround, remove this once the participants are all in 0.8.2,",3,,,,,
+228,59224,apache/poi,TODO next to fix FormulaParser to get this to work,3,,,,,
+229,126572,apache/helix,TODO fix it: manager.disconnect() is not thread-safe,3,,,,,
+230,139931,apache/jclouds,TODO: Remove and switch to a request function.,3,,,,,
+231,17823,apache/tez,FIXME implement a max time to wait for submit,3,,,,,
+232,264579,apache/lucene,:TODO: let Locale/TimeZone come from init args for rounding only,3,,,,,
+233,350306,apache/systemds,TODO: This method should be private once debugger infrastructure is on top of the programmatic API,3,,,,,
+234,179518,apache/nifi,"Workaround which allows to use URLClassLoader for JDBC driver loading.
+(Because the DriverManager will refuse to use a driver not loaded by the system ClassLoader.)",3,,,,,
+235,165228,apache/myfaces,"Register the standard ajax library on the current page in this way:
+
+<h:outputScript name=\""jsf.js\"" library=\""javax.faces\"" target=\""head\""/>
+
+If no h:head component is in the page, we must anyway render the script inline,
+so the only way to make sure we are doing this is add a outputScript component.
+Note that call directly UIViewRoot.addComponentResource or use a listener
+does not work in this case, because check this condition will requires
+traverse the whole tree looking for h:head component.",1,,,,,
+236,332839,apache/beam,TODO: Remove this once the autoscaling is supported for Spanner change streams,3,,,,,
+237,348402,apache/systemds,copy submatrix to block TODO rename to slice!,3,,,,,
+238,181259,apache/nifi,TODO: Add verbose error output for encryption support failure if requested,3,,,,,
+239,189138,apache/iotdb,TODO need remove,2,,,,,
+240,333380,apache/ignite,TODO segments support,2,,,,,
+241,198843,apache/jackrabbit,TODO: implementation missing,2,,,,,
+242,330086,apache/lucene,"After we've called the rebalance command, we want to insure that:
+1> all replicas appear once and only once in the respective leader election queue
+2> All the replicas we _think_ are leaders are in the 0th position in the leader election queue.
+3> The node that ZooKeeper thinks is the leader is the one we think should be the leader.",1,,,,,
+243,77253,apache/geronimo,TODO: JMX Stuff here,2,,,,,
+244,37788,apache/seatunnel,todo: validate the config by new api,3,,,,,
+245,69551,apache/gobblin,"Each Iceberg dataset maps to an Iceberg table
+TODO: The user provided database and table names needs to be pre-checked and verified against the existence of a valid Iceberg table",3,,,,,
+246,296409,apache/beam,"FIXME: there is something wrong with repartition inside
+the Reduce(State)ByKey - setNumPartitions seems not to work",3,,,,,
+247,44116,apache/roller,"Cache up to 20 aggregations, each for up to 30 minutes
+TODO: make this top-subscriptions cache configurable",3,,,,,
+248,111036,apache/atlas,todo: enable this - temporarily commented this as its failing,3,,,,,
+249,246913,apache/hadoop,TODO: move it to DatanodeID once DatanodeID is not stored in FSImage,3,,,,,
+250,60452,apache/pinot,"TODO This is strictly designed for Pinot's ResultSet.
+That being said, perhaps we could make a ThirdEyeResponse
+interface and allow different client implementations to
+provide their own response implementation.",3,,,,,
+251,233336,apache/causeway,"legacy of
+return (ex instanceof org.jboss.resteasy.spi.Failure)
+? RestfulResponse.HttpStatusCode.statusFor(((org.jboss.resteasy.spi.Failure)ex).getErrorCode())",1,,,,,
+252,22533,apache/tomcat,"FIXME: Using docBase = appBase. A temporary workaround to avoid
+using the system temporary directory as docBase, until either
+BZ 57154 is fixed or there is better API from BZ 57155",3,,,,,
+253,92869,apache/drill,TODO: support alternative allocators (including a debugging allocator that records all allocation locations for each buffer).,3,,,,,
+254,196273,apache/jackrabbit,TODO: improve,2,,,,,
+255,20236,apache/tomcat,TODO SERVLET3 - Multipart config,2,,,,,
+256,9978,apache/uniffle,"storage maybe null if the application cache was cleared already
+add event to flush queue, and it will be released",1,,,,,
+257,33778,apache/sis,TODO: filter the columns.,3,,,,,
+258,190056,apache/iotdb,"TODO: After waiting for the IT framework to complete, change the following code to:",3,,,,,
+259,197187,apache/jackrabbit,move the node,1,,,,,
+260,70899,apache/geronimo,"Set up the ENC etc
+TODO",2,,,,,
+261,90575,apache/druid,"TODO: deal with inconsistent null handling in IndexMerger
+\""IndexMerger\"", TestHelper.getTestIndexMerger(),",3,,,,,
+262,168595,apache/olingo-odata4,TODO: THis was a test for V3,2,,,,,
+263,144558,apache/jspwiki,FIXME: Memory leak,2,,,,,
+264,189179,apache/iotdb,"TODO currently, we won't know exact operator which is failed in closing",2,,,,,
+265,172617,apache/opennlp,TODO: (OPENNLP-1174) just remove when back-compat is no longer needed,3,,,,,
+266,241729,apache/flink,TODO: re-enable this test once GenericHiveMetastoreCatalog support table operations,3,,,,,
+267,12867,apache/tika,do a better job than this of checking,1,,,,,
+268,132440,apache/iceberg,TODO: use the correct response object,3,,,,,
+269,48348,apache/roller,TODO do we still want to set the contents here?,2,,,,,
+270,208857,apache/hop,"Save the last directory saved to for new files
+TODO: Save the last saved position to the defaultSaveLocation",3,,,,,
+271,261147,apache/hadoop,"Reprocess
+TODO Move to a separate task queue since reprocess may be a heavy
+operation for large OM DB instances",3,,,,,
+272,362843,apache/systemds,TODO calculate smart blocksize,3,,,,,
+273,159086,apache/maven,"TODO: better to have a transform manager, or reuse the handler manager again so we don't have these requirements duplicated all over?",2,,,,,
+274,142074,apache/jmeter,"Bug 31184 - make sure encoding is specified
+TODO - should the encoding be configurable?
+$NON-NLS-1$",2,,,,,
+275,231199,apache/causeway,TODO deprecated @ClientResponseType(entityType = String.class),3,,,,,
+276,291143,apache/lucene,"TODO: when new TermRange ctors with BytesRef available, use them and do not convert to string!",3,,,,,
+277,52134,apache/poi,TODO - fix up field visibility and subclasses,3,,,,,
+278,228753,apache/causeway,TODO: move to being a responsibility of DeploymentType instead,3,,,,,
+279,106784,apache/calcite,todo: implement,2,,,,,
+280,29056,apache/storm,set clean time really high so doesn't kick in,1,,,,,
+281,4129,apache/wicket,TODO finalize javadoc,3,,,,,
+282,320695,apache/lucene,"we must flush to hdfs
+TODO: we probably don't need to
+hsync below if we do this - I
+think they are equivalent.",3,,,,,
+283,55270,apache/rya,TODO: There's probably a better way to do this,2,,,,,
+284,131934,apache/iceberg,"broken because of SPARK-32168, which should be fixed in 3.0.1",2,,,,,
+285,253430,apache/hadoop,TODO: closed or closing here,2,,,,,
+286,29928,apache/skywalking,"TODO: wusheng
+send data",2,,,,,
+287,161571,apache/maven,"TODO: reintroduce for 3.0
+2.1.0-M2+",3,,,,,
+288,314965,apache/lucene,LUCENE-4351 ignore this test until I figure out why it failed (as reported by Jenkins),2,,,,,
+289,197350,apache/jackrabbit,"TODO: deal with childNodeAttic
+now traverse all child-entries and mark the attached states removed
+without removing the child-entries themselves. this is not required
+since this (i.e. the parent is removed as well).",3,,,,,
+290,7221,apache/wicket,"TODO (Eelco) This is an aweful test. Why is 'mock page' (which isn't a
+real mock, but just some arbitrary page) used rather than a page with
+markup that corresponds to the component structure that is build up?
+Components and markup go together in Wicket, period.",3,,,,,
+291,212435,apache/camel,give a bit of time for AMQ to properly setup topic subscribers,1,,,,,
+292,254001,apache/hadoop,"TODO: Presently this function act as a blocking call, this has to be
+refined by moving the tracking logic to another tracker thread.",3,,,,,
+293,185741,apache/phoenix,TODO: this still creates a new table.,3,,,,,
+294,177702,apache/paimon,"todo: dynamic bucket table need to check current bucket, when full, return the
+next one.",3,,,,,
+295,322900,apache/lucene,"NOTE: in theory we could just make a single BQ, with
++query a b c minShouldMatch=2, but in this case,
+annoyingly, BS2 wraps a sub-scorer that always
+returns 2 as the .freq(), not how many of the
+SHOULD clauses matched:",1,,,,,
+296,101331,apache/commons-lang,TODO - this is NOT safe to ignore - see LANG-571,2,,,,,
+297,325859,apache/lucene,seekExact is not being used today!  maybe we are masking bugs,2,,,,,
+298,299532,apache/netbeans,"XXX patch for LUCENE-10431
+should be removed as soon migration from EOL lucene 8 to lucene 9+ is possible
+currently blocked by JDK 8 language level requirement of NB
+<- remove source file from repo too",3,,,,,
+299,252208,apache/hadoop,TODO add record,3,,,,,
+300,51947,apache/pig,TODO -(MAR-2008) can this ever happen? write junit,3,,,,,
+301,279548,apache/lucene,TODO: more tests,2,,,,,
+302,309201,apache/pulsar,TODO Delete bucket snapshot,3,,,,,
+303,73297,apache/geronimo,"todo: filter based on ObjectName or something, but what counts as a \""JCAResource\""?",2,,,,,
+304,181187,apache/nifi,TODO: Test Enums,3,,,,,
+305,166102,apache/myfaces,TODO: implement me!,2,,,,,
+306,364496,apache/systemds,"Set the RDD object in the cache
+TODO: Make space in the executors",3,,,,,
+307,54792,apache/poi,TODO: implement!,2,,,,,
+308,157631,apache/manifoldcf,"No document deletions can take place while the ingestion API is down, so simply wait for it to come back up.  There's
+nothing better for this thread to be doing...
+Wait for the prescribed time",1,,,,,
+309,65260,apache/pinot,"Number of replicas per partition of low-level consumers check is for the real time tables only
+TODO: Cleanup required once we fetch the replication number from table config depending on table type",3,,,,,
+310,308727,apache/netbeans,@todo: Support JakartaEE,3,,,,,
+311,13313,apache/tika,"TODO Find unique values to add
+TODO Implement",2,,,,,
+312,234466,apache/causeway,TODO simplify the API ...,3,,,,,
+313,356483,apache/systemds,TODO investigate unused field,2,,,,,
+314,181139,apache/nifi,TODO: This can be made configurable if necessary,3,,,,,
+315,346467,apache/systemds,"TODO fine-gained synchronization in setValue (for sparse and dense) due to dynamic allocations,",3,,,,,
+316,83994,apache/fineract,FIXME - KW - handle blank command param use case,3,,,,,
+317,219452,apache/cassandra,"wait for the flushes.
+TODO this is a godawful way to track progress, since they flush in parallel.  a long one could
+thus make several short ones \""instant\"" if we wait for them later.",2,,,,,
+318,4157,apache/wicket,TODO finalize javadoc,3,,,,,
+319,18131,apache/tez,TODO: TEZ-884 null check,2,,,,,
+320,167308,apache/nutch,TODO character escaping,2,,,,,
+321,304238,apache/lucene,"TODO: make it possible to specify min/max iterms per
+block via CL:",3,,,,,
+322,140763,apache/jmeter,TODO check these,2,,,,,
+323,168257,apache/olingo-odata4,TODO $search is not supported yet,2,,,,,
+324,305918,apache/lucene,TODO: remove deletions from SR,3,,,,,
+325,299202,apache/lucene,TODO we might need a close method here to null out the internal used arrays?!,3,,,,,
+326,190046,apache/iotdb,TODO add LocalStandaloneIT,3,,,,,
+327,87166,apache/empire-db,Deprecated* implements Serializable,1,,,,,
+328,261300,apache/ignite,TODO-gg-8170 do we need to handle collection or we can assert aff.size() == 1?,2,,,,,
+329,96387,apache/dolphinscheduler,the skipNodeList maybe null if no next task,1,,,,,
+330,84934,apache/fineract,TODO FINERACT-1247,2,,,,,
+331,232560,apache/causeway,FIXME[ISIS-1976] only temporary for refactoring - remove,3,,,,,
+332,291147,apache/beam,TODO: fix.,3,,,,,
+333,45273,apache/roller,TODO: ATLAS getUserNameLetterMap DONE TESTED,3,,,,,
+334,216654,apache/camel,"at the moment we don't commit the offsets manually, we can add it in the future",2,,,,,
+335,68381,apache/pig,"TODO: PigGroupingPartitionWritableComparator only used as Group comparator in MR.
+What should be TEZ_RUNTIME_INTERMEDIATE_OUTPUT_KEY_COMPARATOR_CLASS if same as MR?",2,,,,,
+336,63858,apache/pinot,TODO: Use a separate way to represent DISTINCT instead of aggregation.,3,,,,,
+337,136994,apache/jclouds,TODO md5,2,,,,,
+338,241866,apache/flink,TODO: support complex types,3,,,,,
+339,13182,apache/tika,"test for one ref table.  If it exists, don't populate ref tables
+TODO: test one at a time",2,,,,,
+340,157844,apache/manifoldcf,Go back around again!,1,,,,,
+341,247940,apache/hadoop,"clearing and re-initializing editsDirs to preserve Collection semantics
+assigning finalEditsDirs to editsDirs would leak Set semantics in the
+return value and cause unexpected results downstream. eg future addAll
+calls. Perf is not an issue since these are small lists.",1,,,,,
+342,52146,apache/pig,provided in bug-44886,2,,,,,
+343,166120,apache/myfaces,Is any flow transition on the way?,1,,,,,
+344,254330,apache/hadoop,TODO implement if needed,2,,,,,
+345,302793,apache/beam,TODO(ajamato): Set the proper state sampler state for ExecutionTime Metrics to use.,3,,,,,
+346,164643,apache/myfaces,TODO IMPLEMENT API,2,,,,,
+347,238435,apache/causeway,TODO[CAUSEWAY-3486] rename to DnStateManagerForCauseway,3,,,,,
+348,78249,apache/geronimo,"TODO move to method above, also in jetty",3,,,,,
+349,171986,apache/opennlp,TODO: should it be equal??,2,,,,,
+350,64793,apache/pinot,TODO: support BABEL validator. Currently parser conformance is set to use BABEL.,3,,,,,
+351,75704,apache/geronimo,"
+TODO: Move this to MojoSupport
+",3,,,,,
+352,161285,apache/maven,TODO: Remove this!,3,,,,,
+353,289086,apache/beam,TODO: replace with more specific exception,3,,,,,
+354,281593,apache/lucene,TODO: Remove warning after API has been finalized,3,,,,,
+355,73298,apache/geronimo,TODO: Put the appropriate name here,3,,,,,
+356,120780,apache/aries,TODO: log ioe,3,,,,,
+357,178036,apache/parquet-java,TODO !!!,2,,,,,
+358,11232,apache/uima-uimaj,move to exact match,3,,,,,
+359,187816,apache/iotdb,"TODO need a read lock, please consider the concurrency with flush manager threads.",3,,,,,
+360,38411,apache/seatunnel,todo reuse array container if not remove fields,3,,,,,
+361,249982,apache/hadoop,"Only one AMRMToken is stored per-attempt, so this should be fine. Can't
+use TokenSelector as service may change - think fail-over.",1,,,,,
+362,219766,apache/cassandra,TODO: create a stack-allocation-friendly list to help optimise garbage for updates to rows with few columns,3,,,,,
+363,147715,apache/jspwiki,"TODO: make packages to search in ActionBeanResolver configurable
+(currently hard-coded)",3,,,,,
+364,132362,apache/iceberg,"Shuffle by the equality key, so that different operations of the same key could be wrote in order when
+executing tasks in parallel.",1,,,,,
+365,30762,apache/sis,TODO: temporary cast to be removed after we upgraded GeoAPI.,3,,,,,
+366,316318,apache/lucene,"TODO: need to improve hack to be OK w/
+RateLimitingDirWrapper in between...",3,,,,,

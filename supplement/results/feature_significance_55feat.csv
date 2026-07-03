@@ -1,0 +1,56 @@
+dimension,feature,display,test,p_value,effect,effect_abs,effect_name,summary,significant,q_value,fdr_significant
+Code,comment_span,comment_span,MWU,3.87498374062642e-18,0.0405985889532057,0.0405985889532057,$\delta$,median 1.00 vs 1.00,True,7.893485397572336e-18,True
+Code,code_file_lines,file_lines,MWU,1.6931798940094897e-07,-0.03033271222528321,0.03033271222528321,$\delta$,median 305.00 vs 292.00,True,2.450655109750577e-07,True
+Code,code_imported_modules,imported_modules,MWU,8.94428423620046e-06,-0.025751167760914125,0.025751167760914125,$\delta$,median 19.00 vs 18.00,True,1.1180355295250573e-05,True
+Code,is_test_file,is_test_file,$\chi^2$,7.317413875700728e-07,0.02461007997082321,0.02461007997082321,V,rate 0.14 vs 0.16,True,1.0319429824706154e-06,True
+Code,is_test_method,is_test_method,$\chi^2$,2.2037723246475427e-06,0.023522048610041313,0.023522048610041313,V,rate 0.08 vs 0.09,True,2.956279947697923e-06,True
+Code,method_visibility,method_visibility,$\chi^2$,0.002160520304132272,0.019006730462279287,0.019006730462279287,V,association,True,0.00252826844100585,True
+Code,code_method_declaration_params,method_params,MWU,0.002037333146210594,-0.01700555404721032,0.01700555404721032,$\delta$,median 1.00 vs 1.00,True,0.002435941805251797,True
+Code,is_static_method,is_static_method,$\chi^2$,0.006159779598402098,0.013610790114573846,0.013610790114573846,V,rate 0.09 vs 0.10,True,0.006914038324737048,True
+Code,method_body_lines,method_body_lines,MWU,0.045709522220075065,-0.011395192402559972,0.011395192402559972,$\delta$,median 5.00 vs 4.00,True,0.049294582786355456,True
+Code,code_cyclomatic_complexity,cyclomatic_complexity,MWU,0.03212874613909539,-0.01122135360039101,0.01122135360039101,$\delta$,median 0.00 vs 0.00,True,0.035341620753004926,True
+Code,is_void_method,is_void_method,$\chi^2$,0.05258940110739208,0.009631258402316652,0.009631258402316652,V,rate 0.33 vs 0.32,False,0.05562340501743394,False
+Comment,comment_keyword_type,comment_keyword_type,$\chi^2$,1.3877440373192215e-77,0.09484942033890018,0.09484942033890018,V,association,True,5.0883948035038124e-77,True
+Comment,satd_length,length,MWU,2.374298121718753e-55,0.09075455507264425,0.09075455507264425,$\delta$,median 8.00 vs 9.00,True,7.68155274673714e-55,True
+Comment,satd_quality_score,quality_score,$\chi^2$,2.954883534170312e-51,0.07579879401534793,0.07579879401534793,V,association,True,9.02881079885373e-51,True
+Comment,satd_type,satd_type,$\chi^2$,5.024222076957661e-28,0.05755389155659616,0.05755389155659616,V,association,True,1.1513842259694639e-27,True
+Comment,satd_path_depth,path_depth,MWU,1.2157034347136739e-17,-0.04903447078674768,0.04903447078674768,$\delta$,median 9.00 vs 9.00,True,2.3879888896161453e-17,True
+Comment,satd_position_in_file,position_in_file,MWU,1.816111498800869e-15,-0.0461253633749664,0.0461253633749664,$\delta$,median 0.61 vs 0.60,True,3.3295377478015934e-15,True
+Comment,comment_has_fixme,comment_has_fixme,$\chi^2$,2.5228517758750367e-09,0.029614960412239766,0.029614960412239766,V,rate 0.05 vs 0.04,True,4.204752959791728e-09,True
+Comment,f_comment_type,comment_type,$\chi^2$,1.5762573476467446e-06,0.023857640065187855,0.023857640065187855,V,association,True,2.1673538530142738e-06,True
+Comment,comment_has_url,comment_has_url,$\chi^2$,0.0004339831178054858,0.017483383721558735,0.017483383721558735,V,rate 0.01 vs 0.02,True,0.0005304238106511493,True
+Comment,comment_has_issue_ref,comment_has_issue_ref,$\chi^2$,0.003857548169435319,0.01435826938460496,0.01435826938460496,V,rate 0.07 vs 0.08,True,0.00442010727747797,True
+Comment,comment_has_question,comment_has_question,$\chi^2$,0.3499310455703707,0.0046446188298066935,0.0046446188298066935,V,rate 0.11 vs 0.12,False,0.35641125011797015,False
+Comment,satd_add_is_weekend_or_night,add_is_weekend_or_night,$\chi^2$,0.7740377234358338,0.0014265809645771005,0.0014265809645771005,V,rate 0.67 vs 0.68,False,0.7740377234358338,False
+Developer,developer_active_commits,d_active_commits,MWU,0.0,-0.2810956016548312,0.2810956016548312,$\delta$,median 95.00 vs 40.00,True,0.0,True
+Developer,developer_removed_satd_count,repaid_satd_count,MWU,0.0,-0.26058835060836655,0.26058835060836655,$\delta$,median 34.00 vs 10.00,True,0.0,True
+Developer,developer_added_satd_count,added_satd_count,MWU,0.0,-0.2553866522802271,0.2553866522802271,$\delta$,median 80.00 vs 27.00,True,0.0,True
+Developer,developer_contribution_ratio,contribution_ratio,MWU,0.0,-0.2453854514005759,0.2453854514005759,$\delta$,median 0.12 vs 0.05,True,0.0,True
+Developer,log1p_developer_total_commits,log1p_total_commits,MWU,0.0,-0.23589153385526182,0.23589153385526182,$\delta$,median 5.68 vs 4.73,True,0.0,True
+Developer,developer_total_commits,d_total_commits,MWU,0.0,-0.2358915213985209,0.2358915213985209,$\delta$,median 292.00 vs 112.00,True,0.0,True
+Developer,developer_fix_ratio,repay_ratio,MWU,1.049378017332728e-233,-0.18876384878794092,0.18876384878794092,$\delta$,median 0.50 vs 0.36,True,5.24689008666364e-233,True
+Developer,developer_ownership,ownership,MWU,2.1574957713651555e-250,-0.18563190273792637,0.18563190273792637,$\delta$,median 1.00 vs 0.70,True,1.1866226742508356e-249,True
+Developer,developer_active_days,d_active_days,MWU,1.7696947077306799e-102,-0.12465100634098437,0.12465100634098437,$\delta$,median 566.00 vs 427.00,True,8.111100743765616e-102,True
+Developer,developer_satd_density,satd_density,MWU,1.1952187726331555e-90,-0.11698434569839762,0.11698434569839762,$\delta$,median 0.20 vs 0.16,True,4.695502321058824e-90,True
+Developer,developer_past_feature_ratio,past_feature_ratio,MWU,9.359549245483264e-57,-0.09002254465815113,0.09002254465815113,$\delta$,median 0.20 vs 0.10,True,3.217345053134872e-56,True
+Developer,developer_past_refactor_ratio,past_refactor_ratio,MWU,4.865643523070368e-40,-0.07152794917215216,0.07152794917215216,$\delta$,median 0.10 vs 0.00,True,1.2743352084231918e-39,True
+Developer,developer_past_cleanup_ratio,past_cleanup_ratio,MWU,4.541193588649699e-34,-0.0627690665380254,0.0627690665380254,$\delta$,median 0.00 vs 0.00,True,1.1352983971624248e-33,True
+Developer,developer_last_commit_days,d_last_commit_days,MWU,3.10317143859917e-28,0.06145186833151109,0.06145186833151109,$\delta$,median 1.00 vs 2.00,True,7.420627353171928e-28,True
+Developer,developer_last_remove_satd_days,last_repay_satd_days,MWU,9.184408841230402e-09,0.03318453108559515,0.03318453108559515,$\delta$,median 6.00 vs 9.00,True,1.403180726552263e-08,True
+Developer,developer_fix_speed,repay_speed,MWU,9.184455664705721e-09,-0.033184526102898786,0.033184526102898786,$\delta$,median 0.14 vs 0.10,True,1.403180726552263e-08,True
+Developer,developer_past_bugfix_ratio,past_bugfix_ratio,MWU,7.5067457728153015e-06,0.025703747439597874,0.025703747439597874,$\delta$,median 0.20 vs 0.30,True,9.601651569880037e-06,True
+Project,project_active_developers,active_developers,MWU,1.3414017911388635e-95,0.12026188364488166,0.12026188364488166,$\delta$,median 13.00 vs 18.00,True,5.675161424049038e-95,True
+Project,project_total_developers,total_developers,MWU,6.202653137580501e-46,0.08250468725984182,0.08250468725984182,$\delta$,median 31.00 vs 38.00,True,1.7955048556154083e-45,True
+Project,project_file_frequency,file_frequency,MWU,2.3503678311176896e-41,-0.07613789500580806,0.07613789500580806,$\delta$,median 4.00 vs 3.00,True,6.463511535573646e-41,True
+Project,project_file_authors,file_authors,MWU,3.280978592853159e-24,0.05482767745724873,0.05482767745724873,$\delta$,median 1.00 vs 2.00,True,7.21815290427695e-24,True
+Project,project_active_commits,p_active_commits,MWU,1.2481718265363971e-15,-0.046394139982347,0.046394139982347,$\delta$,median 564.00 vs 563.00,True,2.3672224296379947e-15,True
+Project,proj_hist_satd_count,proj_hist_satd_count,MWU,4.769953186377159e-15,-0.045426196403570485,0.045426196403570485,$\delta$,median 250.00 vs 221.00,True,8.46282016937883e-15,True
+Project,project_last_commit_days,p_last_commit_days,MWU,4.612429694796322e-19,-0.04409482989993914,0.04409482989993914,$\delta$,median 1.00 vs 1.00,True,9.757062815915296e-19,True
+Project,project_files,files,MWU,4.600798074285471e-14,-0.04374446662225988,0.04374446662225988,$\delta$,median 2055.00 vs 1844.50,True,7.907621690178154e-14,True
+Project,project_readme_score,readme_score,MWU,3.6873615959312455e-09,-0.03314173221515847,0.03314173221515847,$\delta$,median 3.00 vs 3.00,True,5.9648496404770146e-09,True
+Project,project_active_days,p_active_days,MWU,1.4171425693644397e-07,-0.03052312596691403,0.03052312596691403,$\delta$,median 1697.00 vs 1675.00,True,2.1065632787849778e-07,True
+Project,project_total_commits,p_total_commits,MWU,2.3011515534400226e-06,-0.027402899218752573,0.027402899218752573,$\delta$,median 4172.00 vs 3914.00,True,3.0134127485524102e-06,True
+Cross,ownership_x_active_commits,ownership_x_active_commits,MWU,0.0,-0.31836756562830215,0.31836756562830215,$\delta$,median 54.20 vs 15.65,True,0.0,True
+Cross,ownership_x_contribution_ratio,ownership_x_contribution_ratio,MWU,0.0,-0.27742721602269327,0.27742721602269327,$\delta$,median 0.07 vs 0.02,True,0.0,True
+Cross,dev_proj_past_satd_count,dev_proj_past_satd_count,MWU,0.0,-0.23897835162428852,0.23897835162428852,$\delta$,median 17.00 vs 5.00,True,0.0,True
+Cross,developer_is_top_committer,is_top_committer,$\chi^2$,0.09147102132050401,0.00838608854447639,0.00838608854447639,V,rate 0.11 vs 0.11,False,0.09492275797410794,False

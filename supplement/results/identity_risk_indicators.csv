@@ -1,0 +1,4 @@
+indicator,count,rate
+identity_bot_or_noreply,2803,0.06920816769956298
+identity_email_missing,1,2.4690748376583295e-05
+db_exact_label_disagreement,6,0.00014814449025949976
